@@ -13,21 +13,19 @@ Note: Make sure the spaces between the components in your equation are identical
 	tip = bill * 0.15  # Multiply by 15% tip rate
 	total = bill + tip  # Sum the bill and tip
 	share = total / 2  # Divide total by number of friends (2)
+    print("Each person needs to pay: " + str(round(share, 2)))  # Convert share to string and round to 2 decimal places
 
-# Output the message
-print("Each person needs to pay: " + str(round(share, 2)))  # Convert share to string and round to 2 decimal places
-
-Each person needs to pay: 27.19
+    Each person needs to pay: 27.19
 
 ## 3 This code is supposed to take two numbers, divide one by another so that the result is equal to 1, and display the result on the screen. Unfortunately, there is an error in the code. Find the error and fix it, so that the output is correct.
   
-   numerator = 10
-   denominator = 10  # Ensure denominator is not zero
-   if denominator != 0:
-       result = numerator / denominator
-       print(result)
-   else:
-       print("Cannot divide by zero!")
+		numerator = 10
+		denominator = 10       # Ensure denominator is not zero
+		if denominator != 0:
+			result = numerator / denominator
+			print(result)
+		else:
+			print("Cannot divide by zero!")
 	   
 ## 4 Combine the variables to display the sentence "How do you like Python so far?" 
   
