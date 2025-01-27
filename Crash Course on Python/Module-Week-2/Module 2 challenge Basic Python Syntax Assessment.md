@@ -20,11 +20,9 @@
 		
 		Answers:7
 		
-## 4 Consider the following scenario about using if-elif-else statements:Police patrol a specific stretch of dangerous highway and are very particular about speed limits.  The speed limit is 65 miles per hour. Cars going 85 miles per hour or more are given a “Reckless Driving” ticket. Cars going more than 65 miles per hour but less than 85 miles per hour are given a “Speeding” ticket.  Any cars going less than 65 are labeled “Safe” in the system.  
-
-   Fill in the blanks in this function so it returns the proper ticket type or label.
+## 4 Consider the following scenario about using if-elif-else statements:Police patrol a specific stretch of dangerous highway and are very particular about speed limits.  The speed limit is 65 miles per hour. Cars going 85 miles per hour or more are given a “Reckless Driving” ticket. Cars going more than 65 miles per hour but less than 85 miles per hour are given a “Speeding” ticket.  Any cars going less than 65 are labeled “Safe” in the system.  Fill in the blanks in this function so it returns the proper ticket type or label.
    
-   def speeding_ticket(speed):
+       def speeding_ticket(speed):
     if speed:
         ticket = "Reckless Driving"
     elif speed:
@@ -32,7 +30,6 @@
     else:
         ticket = "Safe"
     return ticket
-
 
 	print(speeding_ticket(87)) # Should print Reckless Driving
 	print(speeding_ticket(66)) # Should print Speeding
