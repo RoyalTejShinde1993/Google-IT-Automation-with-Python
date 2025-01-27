@@ -1,4 +1,4 @@
-##Skill Group 1
+## Skill Group 1
 
 Use a function with the def() keyword
 
@@ -14,9 +14,7 @@ Return a value
 
 Call the function in a print statement and pass parameter to the function
 
-# A function is created with the def() keyword. The parameter
-# variable "time_as_string" is passed to the function through a 
-# call to the function.
+# A function is created with the def() keyword. The parameter variable "time_as_string" is passed to the function through a call to the function.
 def task_reminder(time_as_string):
 
     # The following if-elif-else block assigns various strings to
@@ -41,9 +39,8 @@ def task_reminder(time_as_string):
     # This line returns the value of "task" to the function call.
     return task
 
-# This line calls the function and passes a parameter  
-# ("10:00 a.m.") to the function.
-print(task_reminder("10:00 a.m."))
+# This line calls the function and passes a parameter ("10:00 a.m.") to the function.
+   print(task_reminder("10:00 a.m."))
 # Should print "Provide IT Support to employees"
 
 ## Skill Group 2
@@ -104,9 +101,7 @@ else:
     print(7 - number)
 
 
-# Click Run to check your answers. If you are having trouble 
-# calculating the correct answers manually, please review the
-# Practice Quiz Study Guides, videos, and readings in this Module.
+# Click Run to check your answers. If you are having trouble calculating the correct answers manually, please review the Practice Quiz Study Guides, videos, and readings in this Module.
 
 ## Skill Group 3
 Create an if-elif-else statement with: 
