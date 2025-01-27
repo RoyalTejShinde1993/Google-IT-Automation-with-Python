@@ -1,4 +1,4 @@
-Skill Group 1
+##Skill Group 1
 
 Use a function with the def() keyword
 
@@ -45,8 +45,8 @@ def task_reminder(time_as_string):
 # ("10:00 a.m.") to the function.
 print(task_reminder("10:00 a.m."))
 # Should print "Provide IT Support to employees"
--------------------------------------------------------------------------------------------------------------------------------
-Skill Group 2
+
+## Skill Group 2
 Predict the output of expressions written with Python’s syntax. 
 
 Requires an understanding of:
@@ -66,8 +66,6 @@ def product(a, b):
 
 print(product(product(2,4), product(3,5)))
  
-#################################
-
 # Example 2 
 # Evaluate the output of this print statement
 
@@ -79,19 +77,11 @@ def sum(a, b):
 
 print(difference(sum(2,2), sum(3,3)))
 
-
-#################################
-
-
 # Example 3
 # Evaluate the Boolean output of this comparison
 
 
 print((5 >= 2*4) and (5 <= 4*3))
-
-
-#################################
-
 
 # Example 4 
 # Evaluate the value of the comparison in the if statement 
@@ -100,10 +90,6 @@ print((5 >= 2*4) and (5 <= 4*3))
 x = 3
 if x+5 > x**2 or x % 4 != 0:
     print("This comparison is True")
-
-
-#################################
-
 
 # Example 5 
 # Evaluate the output of this if-elif-else statement
@@ -122,8 +108,7 @@ else:
 # calculating the correct answers manually, please review the
 # Practice Quiz Study Guides, videos, and readings in this Module.
 
-------------------------------------------------------------------------------------------------------------------------------------
-Skill Group 3
+## Skill Group 3
 Create an if-elif-else statement with: 
 
 a complex conditional statement using both comparison and logical operators
