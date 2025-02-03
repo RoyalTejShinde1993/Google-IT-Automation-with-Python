@@ -14,6 +14,7 @@ Find the error in the code
 
 Fix the while loop so there is an exit condition
 
+### Answers ###
 def is_power_of_two(number):
 
   if number <= 0:
